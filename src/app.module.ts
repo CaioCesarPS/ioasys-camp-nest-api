@@ -2,8 +2,7 @@ import { Module } from '@nestjs/common';
 import envConfig from '@config/env';
 import { ConfigModule } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { UserModule } from '@modules/user/user.module';
-import { OrderModule } from '@modules/order/order.module';
+import { UserModule } from '@modules/users/user.module';
 
 import { WinstonModule, utilities as nestWinstonModuleUtilities } from 'nest-winston';
 

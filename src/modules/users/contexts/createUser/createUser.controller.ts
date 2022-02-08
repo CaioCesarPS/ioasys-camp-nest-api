@@ -28,7 +28,6 @@ export class CreateUserController {
     type: User,
   })
   @ApiBadRequestResponse({
-    type: 'BAD_REQUEST',
     description: 'This will be returned when has validation error',
   })
   public async create(
